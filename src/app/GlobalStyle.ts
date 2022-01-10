@@ -1,9 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
- h1 {
-   font-size: 4rem;
- }
  * {
    padding: 0;
    margin: 0;
