@@ -5,7 +5,11 @@ export function reportWebVitals(metric: NextWebVitalsMetric) {
 }
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Component {...pageProps} />
+    </>
+  );
 }
 
 export default MyApp;
