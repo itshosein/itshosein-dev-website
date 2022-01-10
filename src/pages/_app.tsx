@@ -1,7 +1,7 @@
-import type { AppProps, NextWebVitalsMetric } from "next/app";
+import type { AppProps, NextWebVitalsMetric } from "next/app"
 
 export function reportWebVitals(metric: NextWebVitalsMetric) {
-  console.log(metric);
+  console.log(metric)
 }
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Component {...pageProps} />
     </>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp
