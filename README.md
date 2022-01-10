@@ -89,15 +89,15 @@ itshosein build with
 3. For development
 
    ```js
-     npm run dev
+   npm run dev
    ```
 
    For production
 
    ```js
-     npm run build
+   npm run build
 
-     npm start
+   npm start
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
