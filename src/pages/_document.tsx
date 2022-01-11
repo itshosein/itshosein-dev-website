@@ -46,22 +46,27 @@ class MyDocument extends Document {
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/apple-touch-icon.png"
+            href="/icon/apple-touch-icon.png"
           />
           <link
             rel="icon"
-            key="32x32"
             type="image/png"
             sizes="32x32"
-            href="/favicon-32x32.png"
+            href="/icon/favicon-32x32.png"
           />
           <link
             rel="icon"
-            key="16x16"
             type="image/png"
             sizes="16x16"
-            href="/favicon-16x16.png"
+            href="/icon/favicon-16x16.png"
           />
+          <link
+            rel="mask-icon"
+            href="/icon/safari-pinned-tab.svg"
+            color="#5bbad5"
+          />
+          <meta name="msapplication-TileColor" content="#da532c" />
+          <meta name="theme-color" content="#ffffff" />
         </Head>
         <body>
           <Main />
